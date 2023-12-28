@@ -5,8 +5,8 @@ body {
   background: linear-gradient(163deg, rgba(57,57,57,1) 35%, rgba(28,28,28,1) 100%);
   color: white;
   font-family: 'Montserrat';
-  text-align: center;
   font-size: 18px;
+  text-align: center;
 }
 
 a {
@@ -15,4 +15,19 @@ a {
 
 h2, h3 {
   margin: 0;
+}
+
+.game-select-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.game-button {
+  padding: 40px;
+}
+
+.game-button img {
+  width: 315px;
+  height: 250px;
+  margin-bottom: 10px;
 }

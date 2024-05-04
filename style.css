@@ -27,6 +27,12 @@ h2, h3 {
   grid-template-columns: auto auto;
 }
 
+@media screen and (max-width: 700px) {
+  .game-button-container {
+    grid-template-columns: auto;
+  }
+}
+
 .game-button {
   text-decoration: none;
   padding: 10px;

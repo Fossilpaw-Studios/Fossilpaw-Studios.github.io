@@ -33,6 +33,12 @@ h2, h3 {
   }
 }
 
+@media (pointer:none), (pointer:coarse) {
+  .game-button-container {
+    grid-template-columns: auto;
+  }
+}
+
 .game-button {
   text-decoration: none;
   padding: 10px;

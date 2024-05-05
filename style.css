@@ -78,7 +78,7 @@ h2, h3 {
   text-align: left;
 }
 
-.text-wrapper img {
+.text-wrapper img, .text-wrapper iframe, .text-wrapper video {
   width: 60%;
   display: block;
   margin-left: auto;
